@@ -1,11 +1,14 @@
+/* UNIVERSAL SELECTOR */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* sets background color for body */
 body {
     background-color: #d9dcd6;
+    font-size: 16px; /* deleted p {} styling and moved font-size here */
 }
 
 /* HEADER STYLES START */
@@ -41,17 +44,12 @@ header nav ul li { /* edits: changed ".header" (class) to "header" (html element
     display: inline-block;
     margin-left: 25px;
 }
-/* HEADER STYLES END */
 
-/* styles nav list */
-a {
+header nav ul li a { /* edit: added header nav ul li */
     color: #ffffff;
     text-decoration: none;
 }
-
-p {
-    font-size: 16px;
-}
+/* HEADER STYLES END */
 
 .hero {
     height: 800px;
