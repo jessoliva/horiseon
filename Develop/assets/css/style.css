@@ -8,23 +8,24 @@ body {
     background-color: #d9dcd6;
 }
 
-header { /* edit: changed from ".header" (class) to "header" (html element) */
+/* HEADER STYLES START */
+header { /* edit: changed ".header" (class) to "header" (html element) */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-header h1 { /* edit: changed from ".header" (class) to "header" (html element) */
+header h1 { /* edit: changed ".header" (class) to "header" (html element) */
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo { /* edit: changed from ".header" (class) to "header" (html element) */
+header h1 .seo { /* edit: changed ".header" (class) to "header" (html element) */
     color: #d9dcd6;
 }
 
-header div { /* edit: changed from ".header" (class) to "header" (html element) */
+header nav { /* edits: changed ".header" (class) to "header" (html element); "div" to "nav" */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,14 +33,15 @@ header div { /* edit: changed from ".header" (class) to "header" (html element) 
     font-size: 20px;
 }
 
-header div ul { /* edit: changed from ".header" (class) to "header" (html element) */
+header nav ul { /* edits: changed ".header" (class) to "header" (html element); "div" to "nav" */
     list-style-type: none;
 }
 
-header div ul li { /* edit: changed from ".header" (class) to "header" (html element) */
+header nav ul li { /* edits: changed ".header" (class) to "header" (html element); "div" to "nav" */
     display: inline-block;
     margin-left: 25px;
 }
+/* HEADER STYLES END */
 
 a {
     color: #ffffff;
