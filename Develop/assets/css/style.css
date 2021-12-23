@@ -20,7 +20,7 @@ header { /* edit: changed ".header" (class) to "header" (html element) */
 }
 
 header h1 { /* edit: changed ".header" (class) to "header" (html element) */
-    display: inline-block;
+    display: inline-block; /* allows nav list to display side by side and respects the padding previously set in header {} */
     font-size: 48px;
 }
 
@@ -133,6 +133,7 @@ header nav ul li a { /* edit: added header nav ul li */
 }
 /* MAIN SECTION STYLES END */
 
+/* FOOTER STYLES START */
 footer { /* edit: changed ".footer" (class) to "footer" (html element) */
     padding: 30px;
     clear: both;
@@ -143,3 +144,4 @@ footer { /* edit: changed ".footer" (class) to "footer" (html element) */
 footer h2 { /* edit: changed ".footer" (class) to "footer" (html element) */
     font-size: 20px;
 }
+/* FOOTER STYLES END */
