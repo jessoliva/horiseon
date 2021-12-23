@@ -43,6 +43,7 @@ header nav ul li { /* edits: changed ".header" (class) to "header" (html element
 }
 /* HEADER STYLES END */
 
+/* styles nav list */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -190,13 +191,13 @@ p {
     font-size: 36px;
 }
 
-.footer {
+footer { /* edit: changed ".footer" (class) to "footer" (html element) */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 { /* edit: changed ".footer" (class) to "footer" (html element) */
     font-size: 20px;
 }
