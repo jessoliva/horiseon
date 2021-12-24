@@ -45,7 +45,7 @@ header nav ul li { /* edits: changed ".header" (class) to "header" (html element
     margin-left: 25px;
 }
 
-header nav ul li a { /* edit: added header nav ul li */
+header nav ul li a { /* edit: added header nav ul li in front of a */
     color: #ffffff;
     text-decoration: none;
 }
@@ -78,6 +78,29 @@ header nav ul li a { /* edit: added header nav ul li */
     margin-left: 20px;
 }
 
+/* MAIN SECTION STYLES START */
+/* edit: deleted classes .search-engine-optimization, .online-reputation-management, .social-media-marketing, and used .content article {} to style the articles */
+.content article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff; 
+}
+
+/* edit: deleted classes and changed to .content img {} to style img */
+.content img {
+    max-height: 200px;
+}
+
+/* edit: deleted classes and changed to .content h2 {} to style h2 */
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* MAIN SECTION STYLES END */
+
 /* BENEFITS STYLES START */
 .benefits {
     margin-right: 20px;
@@ -109,29 +132,6 @@ header nav ul li a { /* edit: added header nav ul li */
     max-width: 150px;
 }
 /* BENEFITS SECTION STYLES END */
-
-/* MAIN SECTION STYLES START */
-/* edit: deleted classes .search-engine-optimization, .online-reputation-management, .social-media-marketing, and used .content article {} to style the articles */
-.content article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff; 
-}
-
-/* edit: deleted classes and changed to .content img {} to style img */
-.content img {
-    max-height: 200px;
-}
-
-/* edit: deleted classes and changed to .content h2 {} to style h2 */
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/* MAIN SECTION STYLES END */
 
 /* FOOTER STYLES START */
 footer { /* edit: changed ".footer" (class) to "footer" (html element) */
