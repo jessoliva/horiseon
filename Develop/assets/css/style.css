@@ -1,11 +1,13 @@
 /* UNIVERSAL SELECTOR */
+/* these will act as global styles */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* sets background color for body */
+/* GENERAL BODY STYLES */
+/* sets background color and font-size for body */
 body {
     background-color: #d9dcd6;
     font-size: 16px; /* deleted p {} styling and moved font-size here */
@@ -14,40 +16,45 @@ body {
 /* HEADER STYLES START */
 header { /* edit: changed ".header" (class) to "header" (html element) */
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif'; /* edit: added quotes to Arial and sans-serif */
     background-color: #2a607c;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif'; /* edit: added quotes to Arial and sans-serif */
     color: #ffffff;
 }
 
+/* styles "Horiseon" in header */
 header h1 { /* edit: changed ".header" (class) to "header" (html element) */
     display: inline-block; /* allows nav list to display side by side and respects the padding previously set in header {} */
     font-size: 48px;
 }
 
+/* styles "seo" in header */
 header h1 .seo { /* edit: changed ".header" (class) to "header" (html element) */
     color: #d9dcd6;
 }
 
+/* styles list container */
 header nav { /* edits: changed ".header" (class) to "header" (html element); "div" to "nav" */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif'; /* edit: added quotes to Calibri and sans-serif */
-    font-size: 20px;
 }
 
 header nav ul { /* edits: changed ".header" (class) to "header" (html element); "div" to "nav" */
     list-style-type: none;
 }
 
+/* styles display of list */
 header nav ul li { /* edits: changed ".header" (class) to "header" (html element); "div" to "nav" */
     display: inline-block;
     margin-left: 25px;
 }
 
+/* styles "Search Engine Optimization" "Online Reputation Management" "Social Media Marketing" in header */
 header nav ul li a { /* edit: added header nav ul li in front of a */
     color: #ffffff;
     text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif'; /* edit: added quotes to Calibri and sans-serif; moved from head nav {} to header nav ul li a {} */
+    font-size: 20px; /* edit: moved from head nav {} to header nav ul li a {} */
 }
 /* HEADER STYLES END */
 
@@ -62,6 +69,9 @@ header nav ul li a { /* edit: added header nav ul li in front of a */
 }
 /* HERO STYLES END */
 
+/* CONTENT SECTION STYLES START */
+/* edit: moved MAIN SECTION STYLES before BENEFITS SECTION STYLES */
+/* edit: deleted classes .search-engine-optimization, .online-reputation-management, .social-media-marketing, and used .content article {} to style the articles */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -78,9 +88,7 @@ header nav ul li a { /* edit: added header nav ul li in front of a */
     margin-left: 20px;
 }
 
-/* MAIN SECTION STYLES START */
-/* edit: moved MAIN SECTION STYLES before BENEFITS SECTION STYLES */
-/* edit: deleted classes .search-engine-optimization, .online-reputation-management, .social-media-marketing, and used .content article {} to style the articles */
+/* this styles the following articles: search-engine-optimization, online-reputation-management, social-media-marketing */
 .content article {
     margin-bottom: 20px;
     padding: 50px;
@@ -100,7 +108,7 @@ header nav ul li a { /* edit: added header nav ul li in front of a */
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* MAIN SECTION STYLES END */
+/* CONTENT SECTION STYLES END */
 
 /* BENEFITS SECTION STYLES START */
 .benefits {
@@ -138,7 +146,7 @@ header nav ul li a { /* edit: added header nav ul li in front of a */
 footer { /* edit: changed ".footer" (class) to "footer" (html element) */
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif'; /* edit: added quotes to Calibri and sans-serif */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif'; /* edit: added quotes to Arial and sans-serif */
     text-align: center;
 }
 
