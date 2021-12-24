@@ -7,13 +7,14 @@
 }
 
 /* GENERAL BODY STYLES */
-/* sets background color and font-size for body */
+/* styles background color and font-size for body */
 body {
     background-color: #d9dcd6;
     font-size: 16px; /* deleted p {} styling and moved font-size here */
 }
 
 /* HEADER STYLES START */
+/* styles header container */
 header { /* edit: changed ".header" (class) to "header" (html element) */
     padding: 20px;
     background-color: #2a607c;
@@ -44,7 +45,7 @@ header nav ul { /* edits: changed ".header" (class) to "header" (html element); 
     list-style-type: none;
 }
 
-/* styles display of list */
+/* styles display of list from vertical to horizontal */
 header nav ul li { /* edits: changed ".header" (class) to "header" (html element); "div" to "nav" */
     display: inline-block;
     margin-left: 25px;
@@ -60,6 +61,7 @@ header nav ul li a { /* edit: added header nav ul li in front of a */
 /* HEADER STYLES END */
 
 /* HERO STYLES START */
+/* styles background image in hero section */
 .hero {
     height: 800px;
     width: 100%;
@@ -71,25 +73,27 @@ header nav ul li a { /* edit: added header nav ul li in front of a */
 /* HERO STYLES END */
 
 /* CONTENT SECTION STYLES START */
-/* edit: moved MAIN SECTION STYLES before BENEFITS SECTION STYLES */
-/* edit: deleted classes .search-engine-optimization, .online-reputation-management, .social-media-marketing, and used .content article {} to style the articles */
+/* edits: moved MAIN SECTION STYLES before BENEFITS SECTION STYLES; deleted classes .search-engine-optimization, .online-reputation-management, .social-media-marketing, and used .content article {} to style the articles */
+/* styles order of image and text for search engine optimization and social media marketing */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* styles order of image and text for "Online Reputation Management" */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* styles display of articles in content container and container */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* this styles the following articles: search-engine-optimization, online-reputation-management, social-media-marketing */
+/* styles the articles: search-engine-optimization, online-reputation-management, social-media-marketing and text */
 .content article {
     margin-bottom: 20px;
     padding: 50px;
@@ -99,19 +103,20 @@ header nav ul li a { /* edit: added header nav ul li in front of a */
     color: #ffffff; 
 }
 
-/* edit: deleted classes and changed to .content img {} to style img */
-.content img {
+/* styles images in articles */
+.content img { /* edit: deleted classes and changed to .content img {} to style img */
     max-height: 200px;
 }
 
-/* edit: deleted classes and changed to .content h2 {} to style h2 */
-.content h2 {
+/* styles "Search Engine Optimization" "Online Reputation Management" "Social Media Marketing" in articles */
+.content h2 { /* edit: deleted classes and changed to .content h2 {} to style h2 */
     margin-bottom: 20px;
     font-size: 36px;
 }
 /* CONTENT SECTION STYLES END */
 
 /* BENEFITS SECTION STYLES START */
+/* styles display of divs in container and container */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -122,21 +127,21 @@ header nav ul li a { /* edit: added header nav ul li in front of a */
     background-color: #2589bd;
 }
 
-/* edit: deleted classes .benefit-lead, .benefit-brand, .benefit-cost, and used .benefits div {} to style the divs */
-.benefits div { 
+/* styles the divs: lead generation, brand awareness, and cost management and text */
+.benefits div { /* edit: deleted classes .benefit-lead, .benefit-brand, .benefit-cost, and used .benefits div {} to style the divs */
     margin-bottom: 32px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif'; /* edit: added quotes to Calibri and sans-serif; moved from .benefits {} to .benefits div {} */
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif'; /* edits: added quotes to Calibri and sans-serif; moved from .benefits {} to .benefits div {} */
     color: #ffffff;
 }
 
-/* edit: deleted classes and changed to .benefits div h3 {} to style h3 */
-.benefits div h3 { 
+/* styles "Lead Generation" "Brand Awareness" "Cost Management" in divs */
+.benefits div h3 { /* edit: deleted classes and changed to .benefits div h3 {} to style h3 */
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* edit: deleted classes and changed to .benefits div img {} to style img */
-.benefits div img {
+/* styles icons in divs */
+.benefits div img { /* edit: deleted classes and changed to .benefits div img {} to style img */
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -144,6 +149,7 @@ header nav ul li a { /* edit: added header nav ul li in front of a */
 /* BENEFITS SECTION STYLES END */
 
 /* FOOTER STYLES START */
+/* styles footer container and text */
 footer { /* edit: changed ".footer" (class) to "footer" (html element) */
     padding: 30px;
     clear: both;
@@ -151,6 +157,7 @@ footer { /* edit: changed ".footer" (class) to "footer" (html element) */
     text-align: center;
 }
 
+/* styles "Made with ❤️️ by Horiseon" in footer */
 footer h2 { /* edit: changed ".footer" (class) to "footer" (html element) */
     font-size: 20px;
 }
