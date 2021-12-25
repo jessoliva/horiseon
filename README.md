@@ -18,12 +18,12 @@ The purpose of this project was to review an existing code for a website for the
     - [CSS](#css)
 - [Credits](#credits)
 
-## User Story
+## Challenge - User Story
 
 AS A marketing agency I WANT a codebase that follows accessibility standards SO THAT our own site is optimized for search engines.
 
 
-## Acceptance Criteria
+## Challenge - Acceptance Criteria
 
 The following criteria for the codebase had to be met:
 
@@ -44,22 +44,20 @@ GIVEN a webpage meets accessibility standards
 [Horiseon](https://jessoliva.github.io/horiseon/)
 
 ## Cloning Repository Procedure
-I followed these steps to clone the remote repository with the code base onto my local machine and push it to a new remote repository.
+I followed these steps to clone the remote repository with the code base for Challenge 1 onto my local machine and push it to a new remote repository on my github.
 
-- Cloned bootcamp repo for challenge 1 onto local machine and saved into github repo
-- navigate to the main page of the repository
-- click on Code
-- select ssh and copy url
-- open terminal and change the current working directory to the location where you want the cloned repo
-- input: git clone <url>
-- press enter and repo is cloned
-- create a repo in github: horiseon
-- go to terminal and make sure you're in correct directory
+- navigate to the main page of the remote repository with the code base
+- click on "Code"
+- select ssh and copy ssh url
+- open terminal and change the current working directory to the location where you want to save the cloned remote repository
+- input: git clone <sshurl>
+- press enter and remote repository is cloned onto the selected working directory
+- create a repository in your github - repository name = horiseon
+- go to terminal and make sure you're in correct directory with the cloned repository
 - input: git remote -v --> to see remote links
-- input: git remote move origin --> to remove existing remote
-- input: git remote add origin <newurlgoeshere> --> to link your github repo ssh url
-- input: git push origin main --> to push onto desired repo
-
+- input: git remote remove origin --> to remove existing remote 
+- input: git remote add origin <newurlgoeshere> --> to link your github repository ssh url
+- input: git push origin main --> to push onto desired remote repository
 
 ## Code Refactor
 ### HTML Edits
@@ -221,6 +219,7 @@ I made the following edits to the CSS code:
 - changed .footer h2 { } to footer h2 { }
 
 ## Credits
+- Xandromous - [GitHub Profile](https://github.com/coding-boot-camp/urban-octo-telegram)
 - Katherine Peterson - [readme.so](https://readme.so/)
 - Kend Dodds - [badges](https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-adding-badges-to-your-readme)
 - [Shields.io](https://shields.io/)
