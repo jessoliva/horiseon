@@ -43,6 +43,24 @@ The following criteria for the codebase had to be met:
 
 [Horiseon](https://jessoliva.github.io/horiseon/)
 
+## Cloning Repository
+I followed these steps to clone the remote repository with the code base onto my local machine and push it to a new remote repository.
+
+- Cloned bootcamp repo for challenge 1 onto local machine and saved into github repo
+- navigate to the main page of the repository
+- click on Code
+- select ssh and copy url
+- open terminal and change the current working directory to the location where you want the cloned repo
+- input \_git clone <url>
+- press enter and repo is cloned
+- create a repo in github: horiseon
+- go to terminal and make sure you're in correct directory
+- input \_git remote -v --> to see remote links
+- input \_git remote move origin --> to remove existing remote
+- input \_git remote add origin <newurlgoeshere> --> to link your github repo ssh url
+- input \_git push origin main --> to push onto desired repo
+
+
 ## Code Refactor
 ### HTML
 I made the following edits to the HTML code:
@@ -110,7 +128,7 @@ I made the following edits to the HTML code:
     - removed &lt;p&gt;
 
 ### CSS
-I made the following edits to the HTML code:
+I made the following edits to the CSS code:
 
 #### Body Styles
 - deleted p {font-size: 16px;} and moved font-size: 16px to body { }
@@ -135,20 +153,23 @@ I made the following edits to the HTML code:
         - added ' '
     - deleted the following styles with classes and changed to .content article { }
 
-<p align="middle" width="100%">
+<p align="left" width="100%">
 <img src="assets/images/readme1-contentarticle.png" alt="" width="50%"> --->
 <img src="assets/images/readme1-.contentarticlenew.png" alt="" width="30%">
+</p>
 
 - deleted the following styles with classes and changed to .content img { }
 
-<p align="middle" width="100%">
+<p align="left" width="100%">
 <img src="assets/images/readme2-.contentimg.png" alt="before" width="25%"> -----> <img src="assets/images/readme2-.contentimgnew.png" alt="after" width="20%">
+</p>
 
 - deleted the following styles with classes and changed to .content h2 { }
 
-<p align="middle" width="100%">
+<p align="left" width="100%">
 <img src="assets/images/readme3-.contenth2.png" alt="before" width="23%"> --->
 <img src="assets/images/readme3-.contenth2new.png" alt="after" width="20%">
+</p>
 
 #### Benefits Styles
 - moved font-family from .benefits { } to .benefits div { }
@@ -157,21 +178,24 @@ I made the following edits to the HTML code:
         - added ' '
     - deleted the following styles with classes and changed to .benefits div { }
 
-<p align="middle" width="100%">
+<p align="left" width="100%">
 <img src="assets/images/readme4-.benefitsdiv.png" alt="before" width="20%">  ---> 
 <img src="assets/images/readme4-.benefitsdivnew.png" alt="after" width="30%">
+</p>
 
 - deleted the following styles with classes and changed to .benefits div h3 { }
 
-<p align="middle" width="100%">
+<p align="left" width="100%">
 <img src="assets/images/readme5-.benefitsh3.png" alt="before" width="20%"> --->
 <img src="assets/images/readme5-.benefitsh3new.png" alt="after" width="22%">
+</p>
 
 - deleted the following styles with classes and changed to .benefits div img { }
 
-<p align="middle" width="100%">
+<p align="left" width="100%">
 <img src="assets/images/readme6-.benefitsimg.png" alt="before" width="20%"> --->
 <img src="assets/images/readme6-.benefitsimgnew.png" alt="after" width="21%">
+</p>
 
 #### Footer Styles
 - footer { }
