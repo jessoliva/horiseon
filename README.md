@@ -5,8 +5,8 @@
 The purpose of this project was to review an existing code for a website for the client Horiseon and refactor it. The codebase had to follow accessibility standards, and be consolidated and efficient. 
 
 ## Built With
-- HTML ![html percentage](https://img.shields.io/badge/html-49.9%25-9cf)
-- CSS ![css percentage](https://img.shields.io/badge/css-50.1%25-ff69b4)
+![html percentage](https://img.shields.io/badge/html-49.9%25-9cf)
+![css percentage](https://img.shields.io/badge/css-50.1%25-ff69b4)
 
 ## Table of Contents
 
@@ -133,7 +133,7 @@ I made the following edits to the HTML code:
 - .content article { }
     - deleted the following styles with classes and changed to .content article { }
 
-![image 1](assets/images/readme1-.contentarticle{}new.png)
+![image 1](assets/images/readme1-contentarticle)
 
     - font-family: changed Calibri and sans-serif to 'Calrbri' and 'sans-serif'
         - added ' '
