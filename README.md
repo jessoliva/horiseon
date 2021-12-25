@@ -132,8 +132,7 @@ I made the following edits to the HTML code:
 - moved CONTECT SECTION STYLES before BENEFITS SECTION STYLES to follow semantic order
 - .content article { }
     - deleted the following styles with classes and changed to .content article { }
-
-![image 1](assets/images/readme1-contentarticle.png)
+<img src="assets/images/readme1-contentarticle.png" alt="" width="200px">
 
     - font-family: changed Calibri and sans-serif to 'Calrbri' and 'sans-serif'
         - added ' '
