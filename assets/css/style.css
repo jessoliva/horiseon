@@ -94,11 +94,11 @@ header nav ul li a { /* edit: added header nav ul li in front of a */
 }
 
 /* styles the articles: search-engine-optimization, online-reputation-management, social-media-marketing and text */
-.content article { /* edit: deleted classes .search-engine-optimization, .online-reputation-management, .social-medial-marketing, and changed to .content article {} to style articles */
+.content article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif'; /* edit: added quotes to Calibri and sans-serif */
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif'; 
     background-color: #0072bb;
     color: #ffffff; 
 }

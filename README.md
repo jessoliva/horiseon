@@ -135,22 +135,20 @@ I made the following edits to the HTML code:
         - added ' '
     - deleted the following styles with classes and changed to .content article { }
 
-<p align="center">
-<img src="assets/images/readme1-contentarticle.png" alt="" width="80%">
-
-<p align="center">
-<img src="assets/images/readme1-.contentarticlenew.png" alt="" width="100%">
+<p align="middle" width="100%">
+<img src="assets/images/readme1-contentarticle.png" alt="" width="50%"> --->
+<img src="assets/images/readme1-.contentarticlenew.png" alt="" width="30%">
 
 - deleted the following styles with classes and changed to .content img { }
 
-<p align="middle">
-<img src="assets/images/readme2-.contentimg.png" alt="before" width="45%"> -----> <img src="assets/images/readme2-.contentimgnew.png" alt="after" width="40%">
+<p align="middle" width="100%">
+<img src="assets/images/readme2-.contentimg.png" alt="before" width="25%"> -----> <img src="assets/images/readme2-.contentimgnew.png" alt="after" width="20%">
 
 - deleted the following styles with classes and changed to .content h2 { }
 
-<p align="middle">
-<img src="assets/images/readme3-.contenth2.png" alt="before" width="45%"> --->
-<img src="assets/images/readme3-.contenth2new.png" alt="after" width="42%">
+<p align="middle" width="100%">
+<img src="assets/images/readme3-.contenth2.png" alt="before" width="23%"> --->
+<img src="assets/images/readme3-.contenth2new.png" alt="after" width="20%">
 
 #### Benefits Styles
 - moved font-family from .benefits { } to .benefits div { }
@@ -159,21 +157,21 @@ I made the following edits to the HTML code:
         - added ' '
     - deleted the following styles with classes and changed to .benefits div { }
 
-<p align="middle">
-<img src="assets/images/readme4-.benefitsdiv.png" alt="before" width="40%">  ---> 
-<img src="assets/images/readme4-.benefitsdivnew.png" alt="after" width="50%">
+<p align="middle" width="100%">
+<img src="assets/images/readme4-.benefitsdiv.png" alt="before" width="20%">  ---> 
+<img src="assets/images/readme4-.benefitsdivnew.png" alt="after" width="30%">
 
 - deleted the following styles with classes and changed to .benefits div h3 { }
 
-<p align="middle">
-<img src="assets/images/readme5-.benefitsh3.png" alt="before" width="40%"> --->
-<img src="assets/images/readme5-.benefitsh3new.png" alt="after" width="42%">
+<p align="middle" width="100%">
+<img src="assets/images/readme5-.benefitsh3.png" alt="before" width="20%"> --->
+<img src="assets/images/readme5-.benefitsh3new.png" alt="after" width="22%">
 
 - deleted the following styles with classes and changed to .benefits div img { }
 
-<p align="middle">
-<img src="assets/images/readme6-.benefitsimg.png" alt="before" width="40%"> --->
-<img src="assets/images/readme6-.benefitsimgnew.png" alt="after" width="42%">
+<p align="middle" width="100%">
+<img src="assets/images/readme6-.benefitsimg.png" alt="before" width="20%"> --->
+<img src="assets/images/readme6-.benefitsimgnew.png" alt="after" width="21%">
 
 #### Footer Styles
 - footer { }
