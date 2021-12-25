@@ -116,7 +116,9 @@ I made the following edits to the HTML code:
 #### Lead Generation Section
 - changed &lt;div class="benefit-lead"&gt; to &lt;div&gt;
     - deleted class
-- changed &lt;img src="./assets/images/lead-generation.png" /&gt; to &lt;img src="./assets/images/brand-awareness.png" alt="" /&gt;
+- changed <br />
+&lt;img src="./assets/images/lead-generation.png" /&gt; to <br />
+&lt;img src="./assets/images/brand-awareness.png" alt="" /&gt;
     - added alt="" attribute
 
 #### Brand Awareness Section
