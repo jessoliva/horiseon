@@ -51,7 +51,7 @@ I made the following edits to the HTML code:
 - changed <title>website</title> to <title>Horiseon</title>
 
 #### Header Section
-- changed <div class="header"> to <header>
+- changed &lt;div class="header"&gt; to <header>
 - changed <div> to <nav>
 
 #### Hero section
@@ -132,7 +132,7 @@ I made the following edits to the HTML code:
 - moved CONTECT SECTION STYLES before BENEFITS SECTION STYLES to follow semantic order
 - .content article { }
     - deleted the following styles with classes and changed to .content article { }
-    ![alttext](./assets/images/readme 1 - .content article { } new.png) 
+    ![image 1](./assets/images/readme1-.contentarticle{}new.png) 
     - font-family: changed Calibri and sans-serif to 'Calrbri' and 'sans-serif'
         - added ' '
 - deleted the following styles with classes and changed to .content img { }
