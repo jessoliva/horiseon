@@ -133,7 +133,7 @@ I made the following edits to the HTML code:
 - .content article { }
     - deleted the following styles with classes and changed to .content article { }
 
-![image 1](assets/images/readme1-contentarticle)
+![image 1](assets/images/readme1-contentarticle.png)
 
     - font-family: changed Calibri and sans-serif to 'Calrbri' and 'sans-serif'
         - added ' '
