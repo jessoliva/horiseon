@@ -10,54 +10,66 @@
 /* styles background color and font-size for body */
 body {
     background-color: #d9dcd6;
-    font-size: 16px; /* deleted p {} styling and moved font-size here */
+    font-size: 16px; 
 }
+/* edit: deleted p {} styling and moved font-size here */
 
 /* HEADER STYLES START */
 /* styles header container */
-header { /* edit: changed ".header" (class) to "header" (html element) */
+header { 
     padding: 20px;
     background-color: #2a607c;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif'; /* edit: added quotes to Arial and sans-serif */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif'; 
     color: #ffffff;
 }
+/* edit: changed ".header" (class) to "header" (html element) */
+/* edit: font-family - added quotes to Arial and sans-serif */
 
 /* styles "Horiseon" in header */
-header h1 { /* edit: changed ".header" (class) to "header" (html element) */
-    display: inline-block; /* allows nav list to display side by side and respects the padding previously set in header {} */
+/* inline-block - allows nav list to display side by side and respects the padding previously set in header {} */
+header h1 { 
+    display: inline-block; 
     font-size: 48px;
 }
+/* edit: changed ".header" (class) to "header" (html element) */
 
 /* styles "seo" in header */
-header h1 .seo { /* edit: changed ".header" (class) to "header" (html element) */
+header h1 .seo {
     color: #d9dcd6;
 }
+/* edit: changed ".header" (class) to "header" (html element) */
 
 /* styles list container */
-header nav { /* edits: changed ".header" (class) to "header" (html element); "div" to "nav" */
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
 }
+/* edits: changed ".header" (class) to "header" (html element), and "div" to "nav" */
+/* edit: font-family - added quotes to Calibri and sans-serif, and moved from header nav{} to header nav ul li a {} */
 
 /* removes item marker for navigation list */
-header nav ul { /* edits: changed ".header" (class) to "header" (html element); "div" to "nav" */
+header nav ul { 
     list-style-type: none;
 }
+/* edits: changed ".header" (class) to "header" (html element), and "div" to "nav" */
 
 /* styles display of list from vertical to horizontal */
-header nav ul li { /* edits: changed ".header" (class) to "header" (html element); "div" to "nav" */
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* edits: changed ".header" (class) to "header" (html element), and "div" to "nav" */
 
 /* styles "Search Engine Optimization" "Online Reputation Management" "Social Media Marketing" in header */
-header nav ul li a { /* edit: added header nav ul li in front of a */
+header nav ul li a { 
     color: #ffffff;
     text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif'; /* edit: added quotes to Calibri and sans-serif; moved from head nav {} to header nav ul li a {} */
-    font-size: 20px; /* edit: moved from head nav {} to header nav ul li a {} */
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif'; 
+    font-size: 20px; 
 }
+/* edit: added header nav ul li in front of a {} */
+/* edit: font-family - moved from head nav {} to header nav ul li a {} */
 /* HEADER STYLES END */
 
 /* HERO STYLES START */
@@ -73,7 +85,7 @@ header nav ul li a { /* edit: added header nav ul li in front of a */
 /* HERO STYLES END */
 
 /* CONTENT SECTION STYLES START */
-/* edits: moved CONTENT SECTION STYLES before BENEFITS SECTION STYLES; deleted classes .search-engine-optimization, .online-reputation-management, .social-media-marketing, and used .content article {} to style the articles */
+/* edit: moved CONTENT SECTION STYLES before BENEFITS SECTION STYLES */ 
 /* styles order of image and text for search engine optimization and social media marketing */
 .float-left {
     float: left;
@@ -102,17 +114,21 @@ header nav ul li a { /* edit: added header nav ul li in front of a */
     background-color: #0072bb;
     color: #ffffff; 
 }
+/* edit: deleted classes .search-engine-optimization, .online-reputation-management, .social-media-marketing, and changed to .content article {} to style the articles */
+/* edit: font-family - added quotes to Calibri and sans-serif */
 
 /* styles images in articles */
-.content img { /* edit: deleted classes and changed to .content img {} to style img */
+.content img { 
     max-height: 200px;
 }
+/* edit: deleted classes and changed to .content img {} to style img */
 
 /* styles "Search Engine Optimization" "Online Reputation Management" "Social Media Marketing" in articles */
-.content h2 { /* edit: deleted classes and changed to .content h2 {} to style h2 */
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* edit: deleted classes and changed to .content h2 {} to style h2 */
 /* CONTENT SECTION STYLES END */
 
 /* BENEFITS SECTION STYLES START */
@@ -123,16 +139,19 @@ header nav ul li a { /* edit: added header nav ul li in front of a */
     clear: both;
     float: right;
     width: 20%;
-    height: 100%; /* edit: moved font-family from .benefits {} to .benefits div {} */
+    height: 100%; 
     background-color: #2589bd;
 }
+/* edit: font-family - moved from .benefits {} to .benefits div {} */
 
 /* styles the divs: lead generation, brand awareness, and cost management and text */
-.benefits div { /* edit: deleted classes .benefit-lead, .benefit-brand, .benefit-cost, and used .benefits div {} to style the divs */
+.benefits div {
     margin-bottom: 32px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif'; /* edits: added quotes to Calibri and sans-serif; moved from .benefits {} to .benefits div {} */
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     color: #ffffff;
 }
+/* edit: deleted classes .benefit-lead, .benefit-brand, .benefit-cost, and used .benefits div {} to style the divs */
+/* edits: font-family - added quotes to Calibri and sans-serif, and moved from .benefits {} to .benefits div {} */
 
 /* styles "Lead Generation" "Brand Awareness" "Cost Management" in divs */
 .benefits div h3 { /* edit: deleted classes and changed to .benefits div h3 {} to style h3 */
@@ -141,24 +160,27 @@ header nav ul li a { /* edit: added header nav ul li in front of a */
 }
 
 /* styles icons in divs */
-.benefits div img { /* edit: deleted classes and changed to .benefits div img {} to style img */
+.benefits div img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* edit: deleted classes and changed to .benefits div img {} to style img */
 /* BENEFITS SECTION STYLES END */
 
 /* FOOTER STYLES START */
 /* styles footer container and text */
-footer { /* edit: changed ".footer" (class) to "footer" (html element) */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif'; /* edit: added quotes to Arial and sans-serif */
     text-align: center;
 }
+/* edit: changed ".footer" (class) to "footer" (html element) */
 
 /* styles "Made with ❤️️ by Horiseon" in footer */
-footer h2 { /* edit: changed ".footer" (class) to "footer" (html element) */
+footer h2 {
     font-size: 20px;
 }
+/* edit: changed ".footer" (class) to "footer" (html element) */
 /* FOOTER STYLES END */

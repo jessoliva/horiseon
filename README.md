@@ -147,39 +147,40 @@ to &lt;img src="./assets/images/cost-management.png" alt="" /&gt;
 I made the following edits to the CSS code:
 
 #### Body Styles
-- deleted p {font-size: 16px;} and moved font-size: 16px to body { }
+- deleted p {font-size: 16px;} and moved font-size: 16px to body {}
 
 #### Header Styles
 
-- header { } styles
-    - changed .header { } to header { }
+- header {} styles
+    - changed .header {} to header {}
     - font-family: changed Arial and sans-serif to 'Arial' and 'sans-serif'
-        - added ' '
-- changed .header h1 { } to header h1 { }
-- changed .header h1 seo { } to header h1 seo { }
-- changed .header div { } to header nav { }
-- changed .header div ul { } to header nav ul { }
-- changed .header div ul li { } to header nav ul li { }
-- changed a { } to header nav ul li a { }
+        - added ''
+    - font-family: moved from header nav{} to header nav ul li a {}
+- changed .header h1 {} to header h1 {}
+- changed .header h1 seo {} to header h1 seo {}
+- changed .header div {} to header nav {}
+- changed .header div ul {} to header nav ul {}
+- changed .header div ul li {} to header nav ul li {}
+- changed a {} to header nav ul li a {}
 
 #### Content Section Styles
-- moved CONTECT SECTION STYLES before BENEFITS SECTION STYLES to follow semantic order
-- .content article { }
-    - font-family: changed Calibri and sans-serif to 'Calrbri' and 'sans-serif'
+- moved CONTENT SECTION STYLES before BENEFITS SECTION STYLES to follow semantic order
+- .content article {}
+    - font-family: changed Calibri and sans-serif to 'Calibri' and 'sans-serif'
         - added ' '
-    - deleted the following styles with classes and changed to .content article { }
+    - deleted the following styles with classes and changed to .content article {}
 
     <p align="left" width="100%">
     &emsp;&emsp;&emsp;<img src="assets/images/readme1-contentarticle.png" alt="" width="50%" align="top"> ---> <img src="assets/images/readme1-.contentarticlenew.png" alt="" width="30%">
     </p>
 
-- deleted the following styles with classes and changed to .content img { }
+- deleted the following styles with classes and changed to .content img {}
 
 <p align="left" width="100%">
 &emsp;&emsp;&emsp;<img src="assets/images/readme2-.contentimg.png" alt="before" width="25%" align="top"> ---> <img src="assets/images/readme2-.contentimgnew.png" alt="after" width="20%">
 </p>
 
-- deleted the following styles with classes and changed to .content h2 { }
+- deleted the following styles with classes and changed to .content h2 {}
 
 <p align="left" width="100%">
 &emsp;&emsp;&emsp;<img src="assets/images/readme3-.contenth2.png" alt="before" width="23%" align="top"> --->
@@ -187,24 +188,24 @@ I made the following edits to the CSS code:
 </p>
 
 #### Benefits Styles
-- moved font-family from .benefits { } to .benefits div { }
-- .benefits div { }
+- moved font-family from .benefits {} to .benefits div {}
+- .benefits div {}
     - font-family: changed Calibri and sans-serif to 'Calibri' and 'sans-serif'
         - added ' '
-    - deleted the following styles with classes and changed to .benefits div { }
+    - deleted the following styles with classes and changed to .benefits div {}
 
     <p align="left" width="100%">
     &emsp;&emsp;&emsp;<img src="assets/images/readme4-.benefitsdiv.png" alt="before" width="20%" align="top">  ---> <img src="assets/images/readme4-.benefitsdivnew.png" alt="after" width="30%">
     </p>
 
-- deleted the following styles with classes and changed to .benefits div h3 { }
+- deleted the following styles with classes and changed to .benefits div h3 {}
 
 <p align="left" width="100%">
 &emsp;&emsp;&emsp;<img src="assets/images/readme5-.benefitsh3.png" alt="before" width="20%" align="top"> --->
 <img src="assets/images/readme5-.benefitsh3new.png" alt="after" width="22%">
 </p>
 
-- deleted the following styles with classes and changed to .benefits div img { }
+- deleted the following styles with classes and changed to .benefits div img {}
 
 <p align="left" width="100%">
 &emsp;&emsp;&emsp;<img src="assets/images/readme6-.benefitsimg.png" alt="before" width="20%" align="top"> --->
@@ -212,11 +213,11 @@ I made the following edits to the CSS code:
 </p>
 
 #### Footer Styles
-- footer { }
-    - changed .footer { } to footer { }
+- footer {}
+    - changed .footer {} to footer {}
     - font-family: changed Arial and sans-serif to 'Arial' and 'sans-serif'
         - added ' '
-- changed .footer h2 { } to footer h2 { }
+- changed .footer h2 {} to footer h2 {}
 
 ## Credits
 - Xandromous - [GitHub Profile](https://github.com/coding-boot-camp/urban-octo-telegram)
