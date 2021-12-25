@@ -73,7 +73,7 @@ header nav ul li a { /* edit: added header nav ul li in front of a */
 /* HERO STYLES END */
 
 /* CONTENT SECTION STYLES START */
-/* edits: moved MAIN SECTION STYLES before BENEFITS SECTION STYLES; deleted classes .search-engine-optimization, .online-reputation-management, .social-media-marketing, and used .content article {} to style the articles */
+/* edits: moved CONTENT SECTION STYLES before BENEFITS SECTION STYLES; deleted classes .search-engine-optimization, .online-reputation-management, .social-media-marketing, and used .content article {} to style the articles */
 /* styles order of image and text for search engine optimization and social media marketing */
 .float-left {
     float: left;
@@ -94,7 +94,7 @@ header nav ul li a { /* edit: added header nav ul li in front of a */
 }
 
 /* styles the articles: search-engine-optimization, online-reputation-management, social-media-marketing and text */
-.content article {
+.content article { /* edit: deleted classes .search-engine-optimization, .online-reputation-management, .social-medial-marketing, and changed to .content article {} to style articles */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -123,7 +123,7 @@ header nav ul li a { /* edit: added header nav ul li in front of a */
     clear: both;
     float: right;
     width: 20%;
-    height: 100%;
+    height: 100%; /* edit: moved font-family from .benefits {} to .benefits div {} */
     background-color: #2589bd;
 }
 
