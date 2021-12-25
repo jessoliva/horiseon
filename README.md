@@ -20,12 +20,13 @@ The purpose of this project was to review an existing code for a website for the
 
 ## Challenge - User Story
 
-AS A marketing agency I WANT a codebase that follows accessibility standards SO THAT our own site is optimized for search engines.
+This a description of the requirements for the website requested by the client:
 
+- AS A marketing agency I WANT a codebase that follows accessibility standards SO THAT our own site is optimized for search engines.
 
 ## Challenge - Acceptance Criteria
 
-The following criteria for the codebase had to be met:
+The following criteria for the codebase of the website had to be met:
 
 GIVEN a webpage meets accessibility standards
 - WHEN I view the source code <br />
@@ -39,9 +40,12 @@ GIVEN a webpage meets accessibility standards
 - WHEN I view the title element <br />
   THEN I find a concise, descriptive title
 
-## Website Link
+## Website Link and Mock-up
 
 [Horiseon](https://jessoliva.github.io/horiseon/)
+
+
+<img src="assets/images/website-mockup.png" alt="mock up" width="50%">
 
 ## Cloning Repository Procedure
 I followed these steps to clone the remote repository with the code base for Challenge 1 onto my local machine and push it to a new remote repository on my github.
