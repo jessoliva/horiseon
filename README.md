@@ -27,23 +27,23 @@ AS A marketing agency I WANT a codebase that follows accessibility standards SO 
 
 The following criteria for the codebase had to be met:
 
-- GIVEN a webpage meets accessibility standards
-- WHEN I view the source code
-- THEN I find semantic HTML elements
-- WHEN I view the structure of the HTML elements
-- THEN I find that the elements follow a logical structure independent of styling and positioning
-- WHEN I view the image elements
-- THEN I find accessible alt attributes
-- WHEN I view the heading attributes
-- THEN they fall in sequential order
-- WHEN I view the title element
-- THEN I find a concise, descriptive title
+GIVEN a webpage meets accessibility standards
+- WHEN I view the source code <br />
+  THEN I find semantic HTML elements
+- WHEN I view the structure of the HTML elements <br />
+  THEN I find that the elements follow a logical structure independent of styling and positioning
+- WHEN I view the image elements <br />
+  THEN I find accessible alt attributes
+- WHEN I view the heading attributes <br />
+  THEN they fall in sequential order
+- WHEN I view the title element <br />
+  THEN I find a concise, descriptive title
 
 ## Website Link
 
 [Horiseon](https://jessoliva.github.io/horiseon/)
 
-## Cloning Repository
+## Cloning Repository Procedure
 I followed these steps to clone the remote repository with the code base onto my local machine and push it to a new remote repository.
 
 - Cloned bootcamp repo for challenge 1 onto local machine and saved into github repo
@@ -51,18 +51,18 @@ I followed these steps to clone the remote repository with the code base onto my
 - click on Code
 - select ssh and copy url
 - open terminal and change the current working directory to the location where you want the cloned repo
-- input \_git clone <url>
+- input: git clone <url>
 - press enter and repo is cloned
 - create a repo in github: horiseon
 - go to terminal and make sure you're in correct directory
-- input \_git remote -v --> to see remote links
-- input \_git remote move origin --> to remove existing remote
-- input \_git remote add origin <newurlgoeshere> --> to link your github repo ssh url
-- input \_git push origin main --> to push onto desired repo
+- input: git remote -v --> to see remote links
+- input: git remote move origin --> to remove existing remote
+- input: git remote add origin <newurlgoeshere> --> to link your github repo ssh url
+- input: git push origin main --> to push onto desired repo
 
 
 ## Code Refactor
-### HTML
+### HTML Edits
 I made the following edits to the HTML code:
 
 #### Within &lt;head&gt;
@@ -79,7 +79,9 @@ I made the following edits to the HTML code:
 - changed &lt;div class="content"&gt; to &lt;section class="content"&gt;
 
 #### Search Engine Optimization Section
-- changed &lt;div class="search-engine-optimization"&gt; to &lt;article id="search-engine-optimization"&gt;
+- changed <br />
+&lt;div class="search-engine-optimization"&gt; to <br />
+&lt;article id="search-engine-optimization"&gt;
     - changed &lt;div&gt; to &lt;article&gt;
     - removed class="search-engine-optimization"
     - added id="search-engine-optimization"
@@ -87,17 +89,25 @@ I made the following edits to the HTML code:
     - added alt=" " attribute
 
 #### Online Reputation Section
-- changed  &lt;div id="online-reputation-management" class="online-reputation-management"&gt; to &lt;article id="online-reputation-management"&gt;
+- changed  <br />
+&lt;div id="online-reputation-management" class="online-reputation-management"&gt; to <br />
+&lt;article id="online-reputation-management"&gt;
     - changed &lt;div&gt; to &lt;article&gt;
     - removed class="online-reputation-management"
-- changed &lt;img src="./assets/images/social-media-marketing.jpg" class="float-left" /&gt; to  &lt;img src="./assets/images/online-reputation-management.jpg" alt="laptop with presentation on screen showing slide displaying improving reputation"  class="float-right" /&gt;
+- changed <br />
+&lt;img src="./assets/images/social-media-marketing.jpg" class="float-left" /&gt; to  <br />
+&lt;img src="./assets/images/online-reputation-management.jpg" alt="laptop with presentation on screen showing slide displaying improving reputation"  class="float-right" /&gt;
     - added alt=" " attribute
 
 #### Social Media Marketing Section
-- changed &lt;div id="social-media-marketing" class="social-media-marketing"&gt; to &lt;article id="social-media-marketing"&gt;
+- changed <br />
+&lt;div id="social-media-marketing" class="social-media-marketing"&gt; to <br />
+&lt;article id="social-media-marketing"&gt;
     - changed &lt;div&gt; to &lt;article&gt;
     - removed class="social-media-marketing"
-- changed &lt;img src="./assets/images/social-media-marketing.jpg" class="float-left" /&gt; to &lt;img src="./assets/images/social-media-marketing.jpg" alt="image displaying icons that represent factors that affect social media marketing" class="float-left" /&gt;
+- changed <br />
+&lt;img src="./assets/images/social-media-marketing.jpg" class="float-left" /&gt; to <br />
+&lt;img src="./assets/images/social-media-marketing.jpg" alt="image displaying icons that represent factors that affect social media marketing" class="float-left" /&gt;
     - added alt=" " attribute
 
 #### Benefits Section
@@ -112,22 +122,28 @@ I made the following edits to the HTML code:
 #### Brand Awareness Section
 - changed &lt;div class="benefit-awareness"&gt; to &lt;div&gt;
     - deleted class
-- changed &lt;img src="./assets/images/brand-awareness.png" /&gt; to &lt;img src="./assets/images/brand-awareness.png" alt="" /&gt;
+- changed <br />
+&lt;img src="./assets/images/brand-awareness.png" /&gt; to <br />
+&lt;img src="./assets/images/brand-awareness.png" alt="" /&gt;
     - added alt="" attribute
 
 #### Cost Management Section
 - changed &lt;div class="benefit-cost"&gt; to &lt;div&gt;
     - deleted class
-- changed &lt;img src="./assets/images/cost-management.png"&gt;&lt;/img&gt; to &lt;img src="./assets/images/cost-management.png" alt="" /&gt;
+- changed <br />
+&lt;img src="./assets/images/cost-management.png"&gt;&lt;/img&gt; <br />
+to &lt;img src="./assets/images/cost-management.png" alt="" /&gt;
     - removed &lt;/img&gt; and added /&gt;
     - added alt="" attribute
 
 #### Footer Section
 - changed &lt;div&gt; to &lt;footer&gt;
-- changed &lt;p&gt;&copy; 2019 Horiseon Social Solution Services, Inc.&lt;/p&gt; to &copy; 2019 Horiseon Social Solution Services, Inc.
+- changed <br />
+&lt;p&gt;&copy; 2019 Horiseon Social Solution Services, Inc.&lt;/p&gt; to <br />
+&copy; 2019 Horiseon Social Solution Services, Inc.
     - removed &lt;p&gt;
 
-### CSS
+### CSS Edits
 I made the following edits to the CSS code:
 
 #### Body Styles
