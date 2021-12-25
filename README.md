@@ -153,21 +153,20 @@ I made the following edits to the CSS code:
         - added ' '
     - deleted the following styles with classes and changed to .content article { }
 
-<p align="left" width="100%">
-<img src="assets/images/readme1-contentarticle.png" alt="" width="50%"> --->
-<img src="assets/images/readme1-.contentarticlenew.png" alt="" width="30%">
-</p>
+    <p align="left" width="100%">
+    &emsp;&emsp;&emsp;<img src="assets/images/readme1-contentarticle.png" alt="" width="50%" align="top"> ---> <img src="assets/images/readme1-.contentarticlenew.png" alt="" width="30%">
+    </p>
 
 - deleted the following styles with classes and changed to .content img { }
 
 <p align="left" width="100%">
-<img src="assets/images/readme2-.contentimg.png" alt="before" width="25%"> -----> <img src="assets/images/readme2-.contentimgnew.png" alt="after" width="20%">
+&emsp;&emsp;&emsp;<img src="assets/images/readme2-.contentimg.png" alt="before" width="25%" align="top"> ---> <img src="assets/images/readme2-.contentimgnew.png" alt="after" width="20%">
 </p>
 
 - deleted the following styles with classes and changed to .content h2 { }
 
 <p align="left" width="100%">
-<img src="assets/images/readme3-.contenth2.png" alt="before" width="23%"> --->
+&emsp;&emsp;&emsp;<img src="assets/images/readme3-.contenth2.png" alt="before" width="23%" align="top"> --->
 <img src="assets/images/readme3-.contenth2new.png" alt="after" width="20%">
 </p>
 
@@ -178,22 +177,21 @@ I made the following edits to the CSS code:
         - added ' '
     - deleted the following styles with classes and changed to .benefits div { }
 
-<p align="left" width="100%">
-<img src="assets/images/readme4-.benefitsdiv.png" alt="before" width="20%">  ---> 
-<img src="assets/images/readme4-.benefitsdivnew.png" alt="after" width="30%">
-</p>
+    <p align="left" width="100%">
+    &emsp;&emsp;&emsp;<img src="assets/images/readme4-.benefitsdiv.png" alt="before" width="20%" align="top">  ---> <img src="assets/images/readme4-.benefitsdivnew.png" alt="after" width="30%">
+    </p>
 
 - deleted the following styles with classes and changed to .benefits div h3 { }
 
 <p align="left" width="100%">
-<img src="assets/images/readme5-.benefitsh3.png" alt="before" width="20%"> --->
+&emsp;&emsp;&emsp;<img src="assets/images/readme5-.benefitsh3.png" alt="before" width="20%" align="top"> --->
 <img src="assets/images/readme5-.benefitsh3new.png" alt="after" width="22%">
 </p>
 
 - deleted the following styles with classes and changed to .benefits div img { }
 
 <p align="left" width="100%">
-<img src="assets/images/readme6-.benefitsimg.png" alt="before" width="20%"> --->
+&emsp;&emsp;&emsp;<img src="assets/images/readme6-.benefitsimg.png" alt="before" width="20%" align="top"> --->
 <img src="assets/images/readme6-.benefitsimgnew.png" alt="after" width="21%">
 </p>
 
@@ -208,3 +206,7 @@ I made the following edits to the CSS code:
 - Katherine Peterson - [readme.so](https://readme.so/)
 - Kend Dodds - [badges](https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-adding-badges-to-your-readme)
 - [Shields.io](https://shields.io/)
+- [Stack Overflow: <>](https://stackoverflow.com/questions/10413954/how-to-make-a-github-readme-page-display-html-code-as-is)
+- [Stack Overflow: Images](https://stackoverflow.com/questions/12090472/how-do-i-center-an-image-in-the-readme-md-file-on-github/62383408#62383408)
+- [Stack Overflow: Align](https://stackoverflow.com/questions/63120753/github-readme-md-align-images)
+- [Stack Exchange: Multiple Spaces](https://meta.stackexchange.com/questions/122520/how-to-write-multiple-spaces-in-the-post)
