@@ -131,26 +131,49 @@ I made the following edits to the HTML code:
 #### Content Section Styles
 - moved CONTECT SECTION STYLES before BENEFITS SECTION STYLES to follow semantic order
 - .content article { }
-    - deleted the following styles with classes and changed to .content article { }
-<img src="assets/images/readme1-contentarticle.png" alt="" width="200px">
-
     - font-family: changed Calibri and sans-serif to 'Calrbri' and 'sans-serif'
         - added ' '
+    - deleted the following styles with classes and changed to .content article { }
+
+<p align="center">
+<img src="assets/images/readme1-contentarticle.png" alt="" width="80%">
+
+<p align="center">
+<img src="assets/images/readme1-.contentarticlenew.png" alt="" width="100%">
+
 - deleted the following styles with classes and changed to .content img { }
-    INSERT IMAGES
+
+<p align="middle">
+<img src="assets/images/readme2-.contentimg.png" alt="before" width="45%"> -----> <img src="assets/images/readme2-.contentimgnew.png" alt="after" width="40%">
+
 - deleted the following styles with classes and changed to .content h2 { }
+
+<p align="middle">
+<img src="assets/images/readme3-.contenth2.png" alt="before" width="45%"> --->
+<img src="assets/images/readme3-.contenth2new.png" alt="after" width="42%">
 
 #### Benefits Styles
 - moved font-family from .benefits { } to .benefits div { }
 - .benefits div { }
-    - deleted the following styles with classes and changed to .benefits div { }
-    INSERT IMAGES
     - font-family: changed Calibri and sans-serif to 'Calibri' and 'sans-serif'
         - added ' '
+    - deleted the following styles with classes and changed to .benefits div { }
+
+<p align="middle">
+<img src="assets/images/readme4-.benefitsdiv.png" alt="before" width="40%">  ---> 
+<img src="assets/images/readme4-.benefitsdivnew.png" alt="after" width="50%">
+
 - deleted the following styles with classes and changed to .benefits div h3 { }
-    INSERT IMAGES
+
+<p align="middle">
+<img src="assets/images/readme5-.benefitsh3.png" alt="before" width="40%"> --->
+<img src="assets/images/readme5-.benefitsh3new.png" alt="after" width="42%">
+
 - deleted the following styles with classes and changed to .benefits div img { }
-    INSERT IMAGES
+
+<p align="middle">
+<img src="assets/images/readme6-.benefitsimg.png" alt="before" width="40%"> --->
+<img src="assets/images/readme6-.benefitsimgnew.png" alt="after" width="42%">
 
 #### Footer Styles
 - footer { }
