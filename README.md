@@ -47,67 +47,67 @@ The following criteria for the codebase had to be met:
 ### HTML
 I made the following edits to the HTML code:
 
-#### Within <head>
-- changed <title>website</title> to <title>Horiseon</title>
+#### Within &lt;head&gt;
+- changed &lt;title&gt;website&lt;/title&gt; to &lt;title&gt;Horiseon&lt;/title&gt;
 
 #### Header Section
-- changed &lt;div class="header"&gt; to <header>
-- changed <div> to <nav>
+- changed &lt;div class="header"&gt; to &lt;header&gt;
+- changed &lt;div&gt; to &lt;nav&gt;
 
 #### Hero section
-- changed <div> to <section>
+- changed &lt;div&gt; to &lt;section&gt;
 
 #### Content section
-- changed <div class="content"> to <section class="content">
+- changed &lt;div class="content"&gt; to &lt;section class="content"&gt;
 
 #### Search Engine Optimization Section
-- changed <div class="search-engine-optimization"> to <article id="search-engine-optimization">
-    - changed <div> to <article>
+- changed &lt;div class="search-engine-optimization"&gt; to &lt;article id="search-engine-optimization"&gt;
+    - changed &lt;div&gt; to &lt;article&gt;
     - removed class="search-engine-optimization"
     - added id="search-engine-optimization"
-- changed <img src="./assets/images/search-engine-optimization.jpg" class="float-left" /> to <img src="./assets/images/search-engine-optimization.jpg" alt="notebook page displaying factors that affect search engine optimization" class="float-left" />
+- changed &lt;img src="./assets/images/search-engine-optimization.jpg" class="float-left" /&gt; to &lt;img src="./assets/images/search-engine-optimization.jpg" alt="notebook page displaying factors that affect search engine optimization" class="float-left" /&gt;
     - added alt=" " attribute
 
 #### Online Reputation Section
-- changed  <div id="online-reputation-management" class="online-reputation-management"> to <article id="online-reputation-management">
-    - changed <div> to <article>
+- changed  &lt;div id="online-reputation-management" class="online-reputation-management"&gt; to &lt;article id="online-reputation-management"&gt;
+    - changed &lt;div&gt; to &lt;article&gt;
     - removed class="online-reputation-management"
-- changed <img src="./assets/images/social-media-marketing.jpg" class="float-left" /> to  <img src="./assets/images/online-reputation-management.jpg" alt="laptop with presentation on screen showing slide displaying improving reputation"  class="float-right" />
+- changed &lt;img src="./assets/images/social-media-marketing.jpg" class="float-left" /&gt; to  &lt;img src="./assets/images/online-reputation-management.jpg" alt="laptop with presentation on screen showing slide displaying improving reputation"  class="float-right" /&gt;
     - added alt=" " attribute
 
 #### Social Media Marketing Section
-- changed <div id="social-media-marketing" class="social-media-marketing"> to <article id="social-media-marketing">
-    - changed <div> to <article>
+- changed &lt;div id="social-media-marketing" class="social-media-marketing"&gt; to &lt;article id="social-media-marketing"&gt;
+    - changed &lt;div&gt; to &lt;article&gt;
     - removed class="social-media-marketing"
-- changed <img src="./assets/images/social-media-marketing.jpg" class="float-left" /> to <img src="./assets/images/social-media-marketing.jpg" alt="image displaying icons that represent factors that affect social media marketing" class="float-left" />
+- changed &lt;img src="./assets/images/social-media-marketing.jpg" class="float-left" /&gt; to &lt;img src="./assets/images/social-media-marketing.jpg" alt="image displaying icons that represent factors that affect social media marketing" class="float-left" /&gt;
     - added alt=" " attribute
 
 #### Benefits Section
-- changed <div class="benefits"> to <section class="benefits">
+- changed &lt;div class="benefits"&gt; to &lt;section class="benefits"&gt;
 
 #### Lead Generation Section
-- changed <div class="benefit-lead"> to <div>
+- changed &lt;div class="benefit-lead"&gt; to &lt;div&gt;
     - deleted class
-- changed <img src="./assets/images/lead-generation.png" /> to <img src="./assets/images/brand-awareness.png" alt="" />
+- changed &lt;img src="./assets/images/lead-generation.png" /&gt; to &lt;img src="./assets/images/brand-awareness.png" alt="" /&gt;
     - added alt="" attribute
 
 #### Brand Awareness Section
-- changed <div class="benefit-awareness"> to <div>
+- changed &lt;div class="benefit-awareness"&gt; to &lt;div&gt;
     - deleted class
-- changed <img src="./assets/images/brand-awareness.png" /> to <img src="./assets/images/brand-awareness.png" alt="" />
+- changed &lt;img src="./assets/images/brand-awareness.png" /&gt; to &lt;img src="./assets/images/brand-awareness.png" alt="" /&gt;
     - added alt="" attribute
 
 #### Cost Management Section
-- changed <div class="benefit-cost"> to <div>
+- changed &lt;div class="benefit-cost"&gt; to &lt;div&gt;
     - deleted class
-- changed <img src="./assets/images/cost-management.png"></img> to <img src="./assets/images/cost-management.png" alt="" />
-    - removed </img> and added />
+- changed &lt;img src="./assets/images/cost-management.png"&gt;&lt;/img&gt; to &lt;img src="./assets/images/cost-management.png" alt="" /&gt;
+    - removed &lt;/img&gt; and added /&gt;
     - added alt="" attribute
 
 #### Footer Section
-- changed <div> to <footer>
-- changed <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p> to &copy; 2019 Horiseon Social Solution Services, Inc.
-    - removed <p>
+- changed &lt;div&gt; to &lt;footer&gt;
+- changed &lt;p&gt;&copy; 2019 Horiseon Social Solution Services, Inc.&lt;/p&gt; to &copy; 2019 Horiseon Social Solution Services, Inc.
+    - removed &lt;p&gt;
 
 ### CSS
 I made the following edits to the HTML code:
@@ -132,7 +132,9 @@ I made the following edits to the HTML code:
 - moved CONTECT SECTION STYLES before BENEFITS SECTION STYLES to follow semantic order
 - .content article { }
     - deleted the following styles with classes and changed to .content article { }
-    ![image 1](./assets/images/readme1-.contentarticle{}new.png) 
+
+![image 1](assets/images/readme1-.contentarticle{}new.png)
+
     - font-family: changed Calibri and sans-serif to 'Calrbri' and 'sans-serif'
         - added ' '
 - deleted the following styles with classes and changed to .content img { }
