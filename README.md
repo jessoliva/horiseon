@@ -52,12 +52,13 @@ I followed these steps to clone the remote repository with the code base for Cha
 
 - navigate to the main page of the remote repository with the code base
 - click on "Code"
-- select ssh and copy ssh url
+- select ssh and copy ssh url = OG.SSH.URL
 - open terminal and change the current working directory to the location where you want to save the cloned remote repository
-- input: git clone <sshurl>
+- input: git clone OG.SSH.URL
 - press enter and remote repository is cloned onto the selected working directory
-- create a repository in your github - repository name = horiseon
-- go to terminal and make sure you're in correct directory with the cloned repository
+- go to your github and create a repository in your github - repository name = horiseon
+- open terminal and make sure you're in the correct directory with the cloned repository
+- input: cd --> to check which directory you're in
 - input: git remote -v --> to see remote links
 - input: git remote remove origin --> to remove existing remote 
 - input: git remote add origin <newurlgoeshere> --> to link your github repository ssh url
